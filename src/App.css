@@ -1,0 +1,192 @@
+/* ----global css start----------- */
+.icon{
+    font-size: 18px;
+}
+.long_arrow{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.cta{
+color: black;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+
+@media only screen and (max-width:600px){
+    .cta-btn{
+        background-color: #fed10c;
+        border-radius: 50px;
+        bottom: 6px;
+        box-shadow: 0 -8px 12px 0 #28282852;
+        display: block;
+        height: 55px;
+        left: 3.5px;
+        overflow: hidden;
+        position: fixed;
+        width: 98%;
+        z-index: 1111111;
+    }
+    .no-mobile{
+    display: none;
+    }
+
+    .padding-s-bottom {
+        padding-bottom: 75px !important;
+    }
+
+    .up-mob{
+        margin-bottom: 50px;
+    }
+}
+
+
+@media only screen and (min-width:768px){
+    .cta-btn{
+        display: none;
+        position: fixed;
+        bottom: 5%;
+        left: 81%;
+        z-index: 1111111;
+        background-color: #fed10c;
+        height: 55px;
+        width: 55px;
+        border-radius: 50px;
+    
+    }
+    .padding-s-bottom {
+        margin-bottom: 0px;
+    }
+
+    .up-mob{
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .cta-btn{
+        display: none;
+        position: fixed;
+        bottom: 5%;
+        left: 81%;
+        z-index: 1111111;
+        background-color: #fed10c;
+        height: 55px;
+        width: 55px;
+        border-radius: 50px;
+    
+    }
+
+    .padding-s-bottom {
+        margin-bottom: 0px;
+    }
+
+    .up-mob{
+        margin-bottom: 0px;
+    }
+}
+
+/* ----global css end----------- */
+
+.bg-darken{
+    background-color: #0000003d;
+    border-radius: 20px;
+    width: 90%;
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.icons-section{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tnk-body{
+    background-color: #ffffff;
+    width: 50%;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0px 0px 7px 7px #dedede;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+
+.tick-icon{
+    color: white;
+    font-size: 70px;
+    background-color: #008000;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 2px green;
+}
+
+.phone-text{
+    margin: 0px;
+
+    font-weight: 500;
+}
+
+.modal-header .btn-close {
+    padding: 0.5rem 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem auto;
+    left: 85% !important;
+    color: black !important;
+    background-color: black !important;
+    top: 4.8% !important;
+}
+
+.multi-cta {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.social-icon {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    position: relative;
+    width: 33.3%;
+}
+
+.center-item {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.color-white-social {
+    color: #fff;
+    font-size: 24px;
+}
+
+.red {
+    background-color: #d71212;
+}
+
+.green {
+    background-color: #06ae5a;
+}
+
+.orange {
+    background-color: #ffb104;
+}
+
